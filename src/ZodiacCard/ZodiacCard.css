@@ -1,6 +1,6 @@
 .zodiac-card {
   width: 200px;
-  background-color: var(--color2);
+  background-color: rgb(104, 0, 101);
   margin: 10px;
   border-radius: 5px;
   display: flex;
@@ -8,6 +8,7 @@
   align-items: center;
   padding: 10px;
   color: var(--color4);
+  transition: background-color 2s, transform 2s;
 }
 
 .zodiac-card img {
@@ -18,4 +19,10 @@
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Space and Astronomy';
+}
+
+.zodiac-card:hover {
+  transform: scale(1.05);
+  background-color: rgb(203, 139, 193);
+  
 }
