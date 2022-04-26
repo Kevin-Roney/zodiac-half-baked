@@ -6,3 +6,20 @@ main {
   height: calc(100vh - 80px);
   align-content: flex-start;
 }
+
+audio::-webkit-media-controls-panel {
+  background-color: rgba(173, 150, 19, 0.6);
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #B1D4E0;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(92, 0, 178, 0.7);
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: rgba(92, 0, 178, 0.7);
+}

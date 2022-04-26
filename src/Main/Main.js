@@ -17,7 +17,7 @@ export default function Main({ zodiacs }) {
             dates={zodiac.dates}
           />)
       }
-      <audio controls loop autoPlay>
+      <audio controls loop autoPlay className='player'>
         <source src='./audio/astral.wav'/>
       </audio>
       {/* remember that when you map over an array and render out a list, each item in the list needs a unique 'key' prop */}
